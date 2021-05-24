@@ -23,6 +23,9 @@
 .lebensW{
   color: #6b5b95;
 }
+.lebensS{
+  color: #CD5C5C;
+}
 .intro{
   padding: 20px 50px 50px 10px;
 }
@@ -37,6 +40,21 @@
     line-height: 2.5rem;
     color: #3e4444;
   
+}
+.services-page h1{
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #3e4444;
+
+  padding: 10px;
+    border-left: 6px solid #CD5C5C;
+    border-right: 6px solid #CD5C5C;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+}
+.services-page img{
+  padding: 0px 100px 30px 100px;
 }
 .intro h2{
 
@@ -153,7 +171,7 @@ min-height: auto;
 .domain-grid{
   display: flex;
     flex-direction: column;
-    padding: 10px 24px;
+    padding: 20px 24px;
     margin: 0px auto;
    
   
@@ -295,7 +313,10 @@ min-height: auto;
   line-height: 1.5;
   color: #233143;
     font-weight: 500;
-    border-left: 5px solid #6b5b95;
+
+    border-left: 6px solid #6b5b95;
+    border-radius: 5px;
+    background-color: #fbfbfb;
 }
 .discount-block-img{
   padding: 50px;
@@ -514,6 +535,13 @@ box-shadow: -1px 0px 32px -9px rgba(0,0,0,0.75);
         .realestate  .opening-time li strong {
       color:#212529 ; }
 
+      .propServices{
+        min-height: 300px;
+      }
+      .propServices h1{
+        padding: 10px;
+        padding-bottom: 0%;
+      }
 .propServices h1, .fitplans h1, .gymtiming h1{
   color: #000;
 }
