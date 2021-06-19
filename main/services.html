@@ -88,13 +88,13 @@
               <h1> We work closely with the organization for overall business development and primarily on 4 critical business 
                 domains which directly impact the organization performance in short and long-term</h1>
             
-            <div class="col-12 col-sm-6 service-block">
+            <div class="col-12 col-sm-8 service-block">
 
-              <div class="py-3 " >
+              <div class="py-3 cont" >
                 <a data-toggle="modal" href="#collapseExample1" data-target="#exampleModalLong" aria-expanded="false" aria-controls="collapseExample">
                   <img src="img/ecom.png" class="img-fluid">
                   <div class="middle">
-                  
+                    <button id="myBtn" class="btn btn-lg">Read more</button>
                   </div>
                   </a>
               </div>
@@ -112,36 +112,45 @@
             </div>
             
            &nbsp;
-            <div class="col-12 col-sm-6 service-block">
+            <div class="col-12 col-sm-8 service-block">
                           
 
               <div class="py-3">
                   <a data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                     <img src="img/business.png" class="img-fluid">
+                    <div class="middle">
+                      <button id="myBtn" class="btn btn-lg">Read more</button>
+                    </div>
                   </a>
               </div>
                  
              
             </div>
             &nbsp;
-            <div class="col-12 col-sm-6 service-block">
+            <div class="col-12 col-sm-8 service-block">
                           
 
               <div class="py-3">
                   <a data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                     <img src="img/hr-services.png"class="img-fluid">
+                    <div class="middle">
+                      <button id="myBtn" class="btn btn-lg">Read more</button>
+                    </div>
                   </a>
               </div>
                 
              
             </div>
             &nbsp;
-            <div class="col-12 col-sm-6 service-block">
+            <div class="col-12 col-sm-8 service-block">
                           
 
               <div class="py-3">
                   <a data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                     <img src="img/allied.png" class="img-fluid">
+                    <div class="middle">
+                      <button id="myBtn" class="btn btn-lg">Read more</button>
+                    </div>
                   </a>
               </div>
                 
@@ -228,7 +237,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                
                   </div>
                 </div>
               </div>
@@ -460,6 +469,23 @@
         }]
     });
 });
+  </script>
+  <script>
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
   </script>
   <!-- endbuild -->
 </body>

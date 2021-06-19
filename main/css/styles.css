@@ -9,16 +9,19 @@
 
 .intro h2::first-letter {
   font-size: 200%;
-  color: #6b5b95;
+  color: rgb(107, 91, 149);
+  color: #ffde88;
 }
-.lebensW{
+/* .lebensW{
   color: #6b5b95;
-}
+  color: #000;
+} */
 .lebensS{
   color: #CD5C5C;
+  color: #Ecbe45;
 }
 .intro{
-  padding: 20px 50px 50px 10px;
+  padding:50px 50px 50px 10px;
 }
 
 .hide-hero1{
@@ -30,6 +33,7 @@
     font-size: 1.5rem;
     line-height: 2.5rem;
     color: #3e4444;
+    color: #fff;
   
 }
 .services-page h1{
@@ -88,6 +92,7 @@
 .intro h2{
 
   font-size: 1.75rem;
+  text-shadow: #000 1px 4px 10px;
 
 }
 
@@ -138,7 +143,10 @@ border-bottom: 1px ridge;  */
   padding: 70px 30px;
 background: none;
   padding: 35px 30px 30px 30px;
-  color: floralwhite; }
+  color: floralwhite; 
+  position: relative;
+  min-height: 485px;
+}
 
 /* .GymMembership{
   color: #000;
@@ -166,6 +174,9 @@ background: none;
 120deg
 ,#001c24,#020e1a); */
 background-color: #deeaee;
+background: #ffde88;
+background: rgb(2,0,36);
+background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(255,222,136,1) 0%, rgba(235,152,78,1) 100%);
  
   }
   .domain-expert{
@@ -174,6 +185,7 @@ background-color: #deeaee;
 120deg
 ,#001c24,#020e1a); */
 background-color: #deeaee;
+background: #ffde88;
 min-height: auto;
   }
 #discount-block h2{
@@ -281,13 +293,12 @@ min-height: auto;
     color: #fff;
 }
 .services{
-  background: linear-gradient(
-120deg
-,#001c24,#020e1a);
+  background:#334047;
+
     color: #fff;
 }
 .services #discount-block h5{
-  color: #B4D1DA;
+  color: #ffde88;
 }
 .services p{
   margin-top: .58824rem;
@@ -295,7 +306,7 @@ min-height: auto;
   line-height: 1.58824rem;
   font-size: 14px;
   letter-spacing: 0;
-  color:#A4D9EA;
+  color:#ffde88;
 }
 .grid_text{
   display: inline-block;
@@ -312,6 +323,7 @@ min-height: auto;
   font-size: 1.1rem;
   line-height: 1.2;
   background: #deeaee;
+  background: #ffde88;
   font-weight: 600;
   color: #000;
   /* border: 1px solid; */
@@ -341,10 +353,10 @@ min-height: auto;
   line-height: 1.5;
   color: #233143;
     font-weight: 500;
-
-    border-left: 6px solid #6b5b95;
-    border-radius: 5px;
-    background-color: #fbfbfb;
+ text-decoration: underline;
+    /* border-left: 6px solid #ffd66c; */
+    text-decoration: underline wavy #ffd66c 5px;
+  
 }
 .discount-block-img{
   padding: 50px;
@@ -359,9 +371,9 @@ min-height: auto;
   border-width: 0.5px;
 }
 
-.services{
+/* .services{
   background-color: #F3F4F7;
-}
+} */
 .equipment{
   position: absolute;
   top: 50%;
@@ -470,6 +482,8 @@ body {
     z-index: 9;
 
     background: #F3F4F7;
+    background: #ffde88;
+    
     border-bottom: 1px solid #e4e7ed;
 }
 /* .navbar{
@@ -511,7 +525,9 @@ body {
   }
 
 .navbar-custom {
-  color: #fff; }
+  color: #fff; 
+  padding: 0px;
+}
   .navbar-custom .navbar-brand {
     color:#3e4444; }
   .navbar-custom .navbar-text {
@@ -692,6 +708,8 @@ box-shadow: -1px 2px 34px 21px rgba(242,242,242,1);
   }
 .Institutions{
   background-color: #deeaee;
+
+  background: #ffde88;
 }
 
 .modal-content .modal-header {
@@ -710,9 +728,15 @@ box-shadow: -1px 2px 34px 21px rgba(242,242,242,1);
 
 footer {
   background-color: #fff;
+  background-color: #334047;
+  color: #F4F6F6;
   padding: 0px 0 0px 0px;
   font-size: 1rem;
   line-height: 1.5; }
+  footer h3{
+    font-size: 1.5rem;
+    color: #ffd66c;
+  }
   footer .footer-widget h2 {
     margin-bottom: 30px; }
   footer .footer-widget ul {
@@ -722,7 +746,7 @@ footer {
   footer .contact-link {
     display: inline-block;
     width: 100%;
-    color: #333; }
+    color: #F4F6F6; }
   footer .footer-social ul {
     padding-left: 0; }
     footer .footer-social ul li {
@@ -797,6 +821,8 @@ footer {
   min-height: 100px;
   background-color: #deeaee;
   text-align: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(235,152,78,1) 0%, rgba(255,222,136,1) 100%);
 }
 .clientNum{
   min-height: 200px;
@@ -883,11 +909,13 @@ font-size: 1rem;
 }
 
 .bbottom{
-border-bottom: 2px solid #D2E3E9;
+border-bottom: 2px solid #ffde88;
+
 }
 
 .btop{
-  border-top: 2px solid #D2E3E9;
+  border-top: 2px solid #ffde88;
+  /* border-top: 2px solid #D2E3E9; */
 }
 .tel{
 margin: auto;
@@ -1001,6 +1029,7 @@ padding: 0 100px 0px 100px;
 }
 .intro h1 {
   font-size: 1.2rem;
+  text-shadow: #000 1px 4px 10px;
  
 }
 .intro-p-span{
@@ -1243,4 +1272,60 @@ top: 35%;
       .intro-p-span{
         display: none;
       }
+  }
+
+  @media (min-width: 576px){
+.modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
+  }
+
+  #myVideo {
+
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+.intro h2, .intro p{
+  color: #fff;
+}
+  .typewrite{
+    color: #fff!important;
+  }
+
+  .middle {
+    transition: .5s ease;
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  .middle .btn{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    background: #ffde88;
+    color: #000;
+    border-width: 0.5px;
+    border-radius: 4px;
+  }
+  
+  .dot {
+    font-size: 200%;
+    color: rgb(107, 91, 149);
+    color: #ffde88;
   }
