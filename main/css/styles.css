@@ -94,6 +94,8 @@
   font-size: 1.75rem;
   text-shadow: #000 1px 4px 10px;
 
+}.intro p{
+  text-shadow: #000 1px 4px 10px;
 }
 
 .intro h2 a{
@@ -106,7 +108,7 @@
 
 .intro p{
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 1.2rem;
     font-weight: 300;
     line-height: 1.5rem;
     font-family: 'MarkPro-Medium',sans-serif;
@@ -1328,4 +1330,8 @@ top: 35%;
     font-size: 200%;
     color: rgb(107, 91, 149);
     color: #ffde88;
+  }
+
+  .slide{
+    width: 100px!important;
   }
