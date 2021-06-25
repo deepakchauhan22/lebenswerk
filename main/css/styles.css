@@ -804,7 +804,12 @@ footer {
 
 .footer-nav a {
   display: inline;
-  background-color: #fff!important;
+  background-color: none!important;
+}
+.footer-nav i{
+  
+    color: #fff;
+
 }
  .opening-time{
    margin-bottom: 0%;
@@ -1335,3 +1340,19 @@ top: 35%;
   .slide{
     width: 100px!important;
   }
+
+  .fitplans, .propServices{
+    background-image: url("/img/dotbg5.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+ 
+.bounce i{
+ font-size: 23px;
+ font-weight: 600;
+ color: #000!important;
+}
